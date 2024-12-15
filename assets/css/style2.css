@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+/*aqui comienzan las especificaciones del primer div*/
+.descuentos{
+    background-color: #D1891C;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    width: 100vw;
+}
+
+/*aqui terminan las especificaciones del primer div*/
+
+    /*aqui comienzan las especificaciones del segundo div*/
+    .tienda{
+        background-color: #00669F;
+        color: #FFFFFF;
+        font-size: 2rem;
+        padding-left: 1rem;
+        width: 100vw;
+    }
+    /*aqui terminan las especificaciones del segundo div*/
+
+    /*aqui comienzan las especificaciones del contenedor general de las tarjetas*/
+    .contenedor_tarjetas{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    /*aqui terminan las especificaciones del contenedor general de las tarjetas*/
+
+    /*aqui comienzan las especificaciones de la clase tarjeta*/
+    .tarjeta{
+        display: flex;
+        width: 50vw;
+        border-radius: 1.1rem;
+        border: .2rem solid black;
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    /*aqui terminan las especificaciones de la clase tarjeta*/
+    #fondo{
+        width: 50vw;
+        position: absolute;
+    }
+
+    #corazon{
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        margin-right: auto;
+    }
+
+    #perfil{
+        width: 26vw;
+        position: relative;
+        padding-top: 2rem;
+    }
+
+    #nombre_heroe{
+        display: flex;
+        padding-top: 1rem;
+    }
+    #informacion_heroe{
+        display: flex;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #boton{
+        display: flex;
+        margin-top: 1rem;
+        background-color: #00669F;
+        margin-bottom: 1rem;
+    }
+
+    #oculta{
+        display: none;
+    }
+
+    .signo{
+        display: flex;
+        background-color: #00669F;
+        border-radius: 100%;
+        color: #FFFFFF;
+        justify-content: center;
+        position: relative;
+        width: 9vw;
+        height: 9vh;
+        left: 60vw;
+        font-size: 4rem;
+    }
+
+    
+
+    
+    
+
+@media (min-width:481px){
+    /*tablets */
+    #oculta{
+        display: flex;
+    }
+
+    #caja_tablet{
+        display: flex;
+        padding-left: 2rem;
+    }
+
+    #caja_tablet2{
+        display: flex;
+        margin-top: 4rem;
+        padding-left: 3rem;
+    }
+
+    .tarjeta{
+        margin-left: 2rem;
+    }
+
+    .signo{
+        display: flex;
+        position: relative;
+        top: 35rem;
+        right: 3rem;
+    }
+
+    .descuentos{
+        width: 100vw;
+    }
+    
+
+    
+
+}
+
+
+@media (min-width:769px){
+    
+}
